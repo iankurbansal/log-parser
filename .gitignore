@@ -1,0 +1,44 @@
+# Eclipse files
+.settings
+.project
+.classpath
+# PMD
+.pmd
+# Compiled source
+*.class
+*/bin/*
+*/build/*
+# Packages
+*.jar
+*.war
+*.ear
+# Maven build files
+target
+*.rpm
+reports
+# ARQ tests
+arq-perf
+# Merge files
+*.orig
+# Backup files in Linux
+*.*~
+incidentService-eps-resource/src/main/resources/EpsConfiguration.properties
+*/model-build/*
+*/test-output/
+*/.gitignore
+knowledge-base-ejb/src/test/resources/cache/serialized/
+.pydevproject
+incidentService-eps-resource/.pydevproject
+metadata-ui/deploymentRoot/
+metadata-ui/metadata-ui.tar.gz
+metadata-ui/node_modules/
+metadata-ui/tmp/
+metadata-ui/nb-configuration.xml
+incidentService-ui/node_modules/*
+incidentService-ui/tmp/*
+# Intellij idea files
+.idea/**
+**/*.iml
+# Integration-test
+*/deployments/**
+*/docker/jboss/deployments/
